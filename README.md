@@ -1,5 +1,6 @@
 Fingerprint Recognition Mobile App
-Overview :
+
+Overview 
 
 This Android application is designed to extract fingerprint images from a Suprema sensor and employ a Siamese model for fingerprint matching. The primary use case for this app is to ensure that individuals in Cameroon only log in once using the provided Suprema sensors.
 
