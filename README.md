@@ -8,7 +8,7 @@ Features
 
 Fingerprint Extraction: Utilizes Suprema sensor to capture fingerprint images.
 Siamese Model Matching: Implements a Siamese model to compare fingerprint images efficiently.
-Triplet Loss for Embeddings: Utilizes triplet loss to generate 126-dimensional embeddings for each fingerprint image.
+Triplet Loss for Embeddings: Utilizes triplet loss to generate embeddings for each fingerprint image.
 Dynamic Database Update: If a fingerprint is not matched, it is added to the database.
 Threshold-based Verification: Compares the dot product of two fingerprint vectors; if it exceeds a threshold (e.g., 0.9), the fingerprints are considered a match.
 Problem Statement
