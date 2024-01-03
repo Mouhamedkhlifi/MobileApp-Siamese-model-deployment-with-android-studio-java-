@@ -1,0 +1,64 @@
+-dontshrink
+-keepclasseswithmembernames interface com.suprema.IBioMiniDevice
+-keepclasseswithmembernames interface com.suprema.IUsbEventHandler
+-keepclasseswithmembernames class com.suprema.android.BioMiniJni
+-keepclasseswithmembernames class com.suprema.BioMiniFactory
+-keepclasseswithmembernames class com.suprema.CaptureResponder
+
+-keepclasseswithmembernames interface com.suprema.util.IBioMiniCallback
+-keepclasseswithmembernames interface com.suprema.util.IBioMiniDeviceCallback
+
+-keep public interface com.suprema.util.IBioMiniCallback {*;}
+-keep public interface com.suprema.util.IBioMiniDeviceCallback {*;}
+
+-keep public interface com.suprema.IBioMiniDevice {*;}
+-keep public class com.suprema.IBioMiniDevice$** {*;}
+-keep public interface com.suprema.IBioMiniDevice$** {*;}
+-keep public interface com.suprema.IUsbEventHandler {*;}
+
+#-keepclassmembers class com.suprema.android.BioMiniOC4 {
+-keepclassmembers class com.suprema.devices.BioMiniOC4 {
+	enum **;
+	private final byte[] m_ImageLast;
+	private boolean SetOC4IntegrationTime(int,int);
+}
+-keepclassmembers class com.suprema.devices.*{
+	private final byte[] m_ImageLast;
+}
+-keep public enum com.suprema.IUsbEventHandler$** {
+    **[] $VALUES;
+    public *;
+}
+-keepclassmembers class com.suprema.BioMiniFactory {
+	public *;
+	enum **;
+	public enum **;
+}
+-keepclassmembers class com.suprema.BioMiniFactory {
+	public *;
+	public enum **;
+}
+-keepclasseswithmembernames,includedescriptorclasses class * {
+    native <methods>;
+}
+-keepclassmembers class com.suprema.CaptureResponder {
+	public *;
+	enum **;
+}
+
+-keepattributes InnerClasses
+
+-keep class com.suprema.util.IBridgeCallback
+-keepclassmembers class com.suprema.util.IBridgeCallback{
+	public *;
+}
+-keep class com.suprema.util.Security
+-keepclassmembers class com.suprema.util.Security{
+	public *;
+}
+
+-assumenosideeffects class android.util.Log {
+    public static int v(...);
+    public static int d(...);
+    #public static int i(...);
+}
