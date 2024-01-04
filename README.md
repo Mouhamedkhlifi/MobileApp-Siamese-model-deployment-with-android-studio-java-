@@ -20,6 +20,8 @@ TensorFlow Lite: Used for deploying the Siamese model on Android devices.
 Android Studio: The primary IDE for Android app development. 
 Suprema Sensor SDK: Integrated for capturing fingerprint images. 
 
+<p align="center">
 <!-- Resized image with width attribute -->
 <img src="test.jpg" alt="Enrollment Process" width="400" />
 <!-- Add more resized screenshots with descriptions as needed -->
+</p>
