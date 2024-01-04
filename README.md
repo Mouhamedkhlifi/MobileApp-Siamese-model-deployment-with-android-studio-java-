@@ -22,8 +22,8 @@ Suprema Sensor SDK: Integrated for capturing fingerprint images.
  [![App Screenshot ](test.jpg)]
 
 <!-- Resized image with width attribute -->
-<img src="images/enrollment.png" alt="Enrollment Process" width="400" />
+<img src="test.jpg" alt="Enrollment Process" width="400" />
 
-<img src="images/verification.png" alt="Verification Process" width="400" />
+<img src="test.jpg" alt="Verification Process" width="400" />
 
 <!-- Add more resized screenshots with descriptions as needed -->
